@@ -88,7 +88,7 @@ do
 findMotifsGenome.pl ${id} mm10 ../peak_motif/ -size given -len 8,10,12 -p 40
 done
 
-# 7.TSS heatmap-deeptools (单独)
+# 7.TSS heatmap-deeptools
 if [ ! -d ../TSS ]
 then
 mkdir ../TSS
